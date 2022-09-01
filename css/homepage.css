@@ -1,0 +1,161 @@
+.section-header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/header_background.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.section-header .navbar{
+    border-bottom: 1px solid white;
+}
+.section-header .navbar a{
+    color: white;
+}
+.section-header .jumbotron{
+    background: none;
+    color: white
+}
+.section-header .jumbotron{
+    margin-top: 150px;
+}
+.section-header .jumbotron h1{font-weight: 400}
+.navbar-brand img{
+    width: 100px;
+}
+
+
+
+
+.section-product{
+    color: #01c59d;
+    padding: 70px 20px;
+}
+.content-product h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.col-product i{
+    font-size: 100px;
+    transition-duration: 0.4s;
+    margin-bottom: 20px
+}
+.col-product i:hover{
+    text-shadow:3px 3px rgba(0,0,0,0.3);
+}
+
+.col-product div{
+    font-size: 20px;
+}
+
+
+
+
+.section-job{
+    background-color: #fcfcfc;
+    padding: 70px 50px;
+}
+.section-job h3{
+    margin-bottom: 40px;
+}
+.section-job button{
+    margin-top: 20px;
+    width: 50%;
+}
+.join-image{
+    width: 50%;
+}
+.content-job .job-img-col{
+    text-align: center;
+}
+
+
+.section-berlangganan{
+    background-color :rgba(1, 197, 157, 0.4);
+    padding: 70px 200px;
+}
+.section-berlangganan h3{
+    margin-bottom: 25px;
+}
+.content-berlangganan button{
+    margin-top: 30px;
+}
+
+
+.section-footer{
+    padding: 70px 50px;
+}
+.col-footer div{
+    text-align: justify;
+}
+.col-footer h3{
+    margin-bottom: 30px;
+}
+.col-footer div i{
+    border:1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+.col-footer .contact i{
+    border: none;
+    padding: 0 10px;
+}
+.footer-media{
+    margin-top: 20px;
+}
+.col-footer input,textarea{
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.col-footer div{
+    width:100%;
+}
+.col-footer .btn{
+    text-align: center;
+}
+
+a{
+    text-decoration: none !important;
+    color: #01c59d;
+}
+a:hover{
+    color: #01c59d !important;
+}
+
+button{
+    border-color: #01c59d !important;
+    color: #01c59d !important;
+}
+button:hover{
+    background-color: #01c59d !important;
+    color: white !important;
+}
+
+
+@media only screen and (max-width: 726px){
+    .section-berlangganan{
+        padding: 100px 20px;
+    }
+    .section-product .col-product{
+        margin-bottom: 50px;
+    }
+    .section-product i{
+        margin-bottom: 5px;
+    }
+    .section-job .job-col{
+        text-align: center !important;
+    }
+    .job-img-col img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section-footer .col-footer{
+        border-bottom: 1px solid grey;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+    }
+
+}

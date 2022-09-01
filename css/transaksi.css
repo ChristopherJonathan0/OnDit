@@ -1,0 +1,89 @@
+.section-header{
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #ced4da;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.nav a{
+    color: #3d3d3d; 
+}
+.nav i{
+    font-size: 36px;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+
+.section-identitas{
+    padding: 20px;
+}
+.content-identitas .col-identitas img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.col-identitas div{
+    border-bottom: 1px solid #adadad;
+    margin-bottom: 20px;
+}
+.col-identitas label{
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+
+.section-komentar{
+
+}
+.col-komentar label{
+    font-weight: bold;
+}
+.col-komentar  div .identitas-perusahaan img{
+    float: left;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.section-pemesanan{
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.content-pemesanan button{
+    width: 100%;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none !important;
+    color: #01c59d !important;
+}
+a:hover{
+    color: #01c59d !important;
+}
+
+button{
+    border-color: #01c59d !important;
+    color: #01c59d !important;
+}
+button:hover{
+    background-color: #01c59d !important;
+    color: white !important;
+}
+
+
+@media only screen and (max-width:726px){
+    .col-pemesanan{
+        width: 50% !important;
+    }
+    .col-identitas{
+        margin-top: 30px;
+    }
+    .section-komentar{
+        margin-top: 30px;
+    }
+}

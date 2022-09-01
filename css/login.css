@@ -1,0 +1,92 @@
+.section-login{
+    font-family: verdana;
+    background-color: #fcfcfc;
+    text-align: center;
+    padding-top: 5px;
+}
+.logo{
+    width: 130px;
+}
+.content-login{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #01c59d;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1.5px solid #28a745;
+    text-align: left;
+    padding: 40px 55px;
+}
+.fa-arrow-left{
+    font-size: 36px;
+}
+i{
+    text-decoration: none !important;
+    color:#28a745 !important;
+}
+i:hover{
+    color: #28a745 !important;
+}
+.profil-container{
+    text-align: center;
+}
+.profil{
+    width: 45%;
+    border-radius: 50%;
+    background-color: #fcfcfc;
+    border: 1.5px solid #28a745;
+}
+.sebagai{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+select{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    height: 45px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+option{
+    background-color: white;
+}
+input{
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+input::placeholder{
+    font-family: verdana;
+    color: black;
+    filter: opacity(80%);
+}
+.button1{
+    height: 45px;
+    width: 100% !important;
+    background-color: #28a745;
+    color: white;
+    border: transparent;
+    transition-duration: 0.5s;
+    font-size: 18px;
+}
+.button1:hover{
+    background-color: white;
+    color: #28a745;
+    border: 1.5px solid #28a745;
+}
+.footer{
+    font-size: 14px;
+}
+.psw{
+    float: right;
+}
+a:hover{
+    color: #28a745
+}
